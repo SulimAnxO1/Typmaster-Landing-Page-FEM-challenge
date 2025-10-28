@@ -1,0 +1,50 @@
+/* FONTS */
+
+/* barlow-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/assets/fonts/barlow-v12-latin-500.woff2") format("woff2");
+}
+
+/* barlow-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/barlow-v12-latin-700.woff2") format("woff2");
+}
+
+/* barlow-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/assets/fonts/barlow-v12-latin-900.woff2") format("woff2");
+}
+
+/* CSS VARIABLES */
+
+:root {
+  --orange: hsl(22, 89%, 52%);
+  --orange-lt: hsl(22, 100%, 69%);
+  --blue: hsl(220, 50%, 17%);
+  --blue-lt: hsl(221, 23%, 58%);
+  --gray-lt: hsl(198, 28%, 93%);
+  --white: hsl(0, 0%, 100%);
+  --space-sm: 24px;
+  --space-med: 64px;
+  --space-lg: 120px;
+}
+
+/* BASIC RESETS */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
